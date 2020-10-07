@@ -104,7 +104,7 @@ When the client makes a `PUT` request to `/api/users/:id`:
   - respond with HTTP status code `400` (Bad Request).
   - return the following JSON response: `{ errorMessage: "Please provide name and bio for the user." }`.
 
-- If there's an error when updating the _user_:
+.- If there's an error when updating the _user_:
 
   - respond with HTTP status code `500`.
   - return the following JSON object: `{ errorMessage: "The user information could not be modified." }`.
